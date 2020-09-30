@@ -1,0 +1,105 @@
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark_otomasyon.exe.config
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Otopark_otomasyon\otopark_otomasyon\bin\Debug\Database1.mdf
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Otopark_otomasyon\otopark_otomasyon\bin\Debug\Database1_log.ldf
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark_otomasyon.exe
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark_otomasyon.pdb
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.csprojResolveAssemblyReference.cache
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.Form1.resources
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.konum.resources
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.Properties.Resources.resources
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.csproj.GenerateResource.Cache
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.exe
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.pdb
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.aracgiris.resources
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.araccikis.resources
+C:\Users\LAB_A\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark_otomasyon.exe.config
+C:\Users\LAB_A\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.exe
+C:\Users\LAB_A\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.pdb
+C:\Users\LAB_A\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark.mdf
+C:\Users\LAB_A\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark_log.ldf
+C:\Users\LAB_A\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark_otomasyon.exe
+C:\Users\LAB_A\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark_otomasyon.pdb
+C:\Users\LAB_A\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.csprojResolveAssemblyReference.cache
+C:\Users\LAB_A\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.araccikis.resources
+C:\Users\LAB_A\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.aracgiris.resources
+C:\Users\LAB_A\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.Form1.resources
+C:\Users\LAB_A\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.kayitlar.resources
+C:\Users\LAB_A\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.konum.resources
+C:\Users\LAB_A\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.Properties.Resources.resources
+C:\Users\LAB_A\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.csproj.GenerateResource.Cache
+C:\Users\Tayfun-PC\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark_otomasyon.exe.config
+C:\Users\Tayfun-PC\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.exe
+C:\Users\Tayfun-PC\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.pdb
+C:\Users\Tayfun-PC\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark.mdf
+C:\Users\Tayfun-PC\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark_log.ldf
+C:\Users\Tayfun-PC\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark_otomasyon.exe
+C:\Users\Tayfun-PC\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark_otomasyon.pdb
+C:\Users\Tayfun-PC\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.csprojResolveAssemblyReference.cache
+C:\Users\Tayfun-PC\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.araccikis.resources
+C:\Users\Tayfun-PC\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.aracgiris.resources
+C:\Users\Tayfun-PC\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.Form1.resources
+C:\Users\Tayfun-PC\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.kayitlar.resources
+C:\Users\Tayfun-PC\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.konum.resources
+C:\Users\Tayfun-PC\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.kullanıcıkontrolcs.resources
+C:\Users\Tayfun-PC\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.Properties.Resources.resources
+C:\Users\Tayfun-PC\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.csproj.GenerateResource.Cache
+C:\Users\İlknur Özdemir\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark.mdf
+C:\Users\İlknur Özdemir\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark_log.ldf
+C:\Users\İlknur Özdemir\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\EntityFramework.dll
+C:\Users\İlknur Özdemir\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\İlknur Özdemir\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\EntityFramework.xml
+C:\Users\İlknur Özdemir\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\İlknur Özdemir\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.araccikis.resources
+C:\Users\İlknur Özdemir\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.aracgiris.resources
+C:\Users\İlknur Özdemir\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.Form1.resources
+C:\Users\İlknur Özdemir\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.kayitlar.resources
+C:\Users\İlknur Özdemir\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.konum.resources
+C:\Users\İlknur Özdemir\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.kullanicikontrol.resources
+C:\Users\İlknur Özdemir\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.Properties.Resources.resources
+C:\Users\İlknur Özdemir\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.csproj.GenerateResource.Cache
+C:\Users\İlknur Özdemir\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.exe
+C:\Users\İlknur Özdemir\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.pdb
+C:\Users\İlknur Özdemir\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark_otomasyon.exe.config
+C:\Users\İlknur Özdemir\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark_otomasyon.exe
+C:\Users\İlknur Özdemir\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark_otomasyon.pdb
+C:\Users\İlknur Özdemir\Desktop\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.csprojResolveAssemblyReference.cache
+C:\Users\İlknur Özdemir\Desktop\Yeni klasör\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark_otomasyon.exe.config
+C:\Users\İlknur Özdemir\Desktop\Yeni klasör\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.exe
+C:\Users\İlknur Özdemir\Desktop\Yeni klasör\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.pdb
+C:\Users\İlknur Özdemir\Desktop\Yeni klasör\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark.mdf
+C:\Users\İlknur Özdemir\Desktop\Yeni klasör\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark_log.ldf
+C:\Users\İlknur Özdemir\Desktop\Yeni klasör\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark_otomasyon.exe
+C:\Users\İlknur Özdemir\Desktop\Yeni klasör\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark_otomasyon.pdb
+C:\Users\İlknur Özdemir\Desktop\Yeni klasör\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\EntityFramework.dll
+C:\Users\İlknur Özdemir\Desktop\Yeni klasör\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\İlknur Özdemir\Desktop\Yeni klasör\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\EntityFramework.xml
+C:\Users\İlknur Özdemir\Desktop\Yeni klasör\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\İlknur Özdemir\Desktop\Yeni klasör\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.csprojResolveAssemblyReference.cache
+C:\Users\İlknur Özdemir\Desktop\Yeni klasör\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.araccikis.resources
+C:\Users\İlknur Özdemir\Desktop\Yeni klasör\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.aracgiris.resources
+C:\Users\İlknur Özdemir\Desktop\Yeni klasör\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.Form1.resources
+C:\Users\İlknur Özdemir\Desktop\Yeni klasör\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.kayitlar.resources
+C:\Users\İlknur Özdemir\Desktop\Yeni klasör\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.konum.resources
+C:\Users\İlknur Özdemir\Desktop\Yeni klasör\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.kullanicikontrol.resources
+C:\Users\İlknur Özdemir\Desktop\Yeni klasör\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.Properties.Resources.resources
+C:\Users\İlknur Özdemir\Desktop\Yeni klasör\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.csproj.GenerateResource.Cache
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Projelerim\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark_otomasyon.exe.config
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Projelerim\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.exe
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Projelerim\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.pdb
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Projelerim\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark.mdf
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Projelerim\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark_log.ldf
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Projelerim\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark_otomasyon.exe
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Projelerim\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\otopark_otomasyon.pdb
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Projelerim\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\EntityFramework.dll
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Projelerim\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Projelerim\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\EntityFramework.xml
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Projelerim\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Projelerim\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.csprojResolveAssemblyReference.cache
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Projelerim\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.araccikis.resources
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Projelerim\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.aracgiris.resources
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Projelerim\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.Form1.resources
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Projelerim\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.kayitlar.resources
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Projelerim\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.konum.resources
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Projelerim\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.kullanicikontrol.resources
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Projelerim\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.Properties.Resources.resources
+C:\Users\İlknur Özdemir\Desktop\c# çalışmaları\Projelerim\otomasyon ödev\otopark_otomasyon\otopark_otomasyon\obj\Debug\otopark_otomasyon.csproj.GenerateResource.Cache

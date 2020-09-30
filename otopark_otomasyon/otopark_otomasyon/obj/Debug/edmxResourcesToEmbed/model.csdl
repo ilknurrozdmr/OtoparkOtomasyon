@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="otoparkModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="kayitlar">
+    <Key>
+      <PropertyRef Name="k_id" />
+    </Key>
+    <Property Name="k_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="p_yeri_id" Type="Int32" />
+    <Property Name="m_id" Type="Int32" />
+    <Property Name="plaka" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="sahip_adi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="sahip_soyadi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="marka" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="model" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="park_alani" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="aracyikama" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="g_saati" Type="DateTime" Precision="7" />
+    <Property Name="c_saati" Type="DateTime" Precision="7" />
+    <Property Name="fiyat" Type="Int32" />
+    <NavigationProperty Name="musteri" Relationship="Self.FK_kayitlar_musteri" FromRole="kayitlar" ToRole="musteri" />
+    <NavigationProperty Name="parkyeri" Relationship="Self.FK_kayitlar_parkyeri" FromRole="kayitlar" ToRole="parkyeri" />
+  </EntityType>
+  <EntityType Name="musteri">
+    <Key>
+      <PropertyRef Name="m_id" />
+    </Key>
+    <Property Name="m_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="park_alani" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="marka" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="model" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="plaka" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="sahip_adi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="sahip_soyadi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="g_saati" Type="DateTime" Precision="7" />
+    <Property Name="durum" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="aracyikama" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="kayitlars" Relationship="Self.FK_kayitlar_musteri" FromRole="musteri" ToRole="kayitlar" />
+  </EntityType>
+  <EntityType Name="parkyeri">
+    <Key>
+      <PropertyRef Name="p_yeri_id" />
+    </Key>
+    <Property Name="p_yeri_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="p_yeri" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="p_durum" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="kayitlars" Relationship="Self.FK_kayitlar_parkyeri" FromRole="parkyeri" ToRole="kayitlar" />
+  </EntityType>
+  <Association Name="FK_kayitlar_musteri">
+    <End Role="musteri" Type="Self.musteri" Multiplicity="0..1" />
+    <End Role="kayitlar" Type="Self.kayitlar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="musteri">
+        <PropertyRef Name="m_id" />
+      </Principal>
+      <Dependent Role="kayitlar">
+        <PropertyRef Name="m_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_kayitlar_parkyeri">
+    <End Role="parkyeri" Type="Self.parkyeri" Multiplicity="0..1" />
+    <End Role="kayitlar" Type="Self.kayitlar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="parkyeri">
+        <PropertyRef Name="p_yeri_id" />
+      </Principal>
+      <Dependent Role="kayitlar">
+        <PropertyRef Name="p_yeri_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="otoparkEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="kayitlars" EntityType="Self.kayitlar" />
+    <EntitySet Name="musteris" EntityType="Self.musteri" />
+    <EntitySet Name="parkyeris" EntityType="Self.parkyeri" />
+    <AssociationSet Name="FK_kayitlar_musteri" Association="Self.FK_kayitlar_musteri">
+      <End Role="musteri" EntitySet="musteris" />
+      <End Role="kayitlar" EntitySet="kayitlars" />
+    </AssociationSet>
+    <AssociationSet Name="FK_kayitlar_parkyeri" Association="Self.FK_kayitlar_parkyeri">
+      <End Role="parkyeri" EntitySet="parkyeris" />
+      <End Role="kayitlar" EntitySet="kayitlars" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="otoparkModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="kayit">
+    <Key>
+      <PropertyRef Name="KayitId" />
+    </Key>
+    <Property Name="KayitId" Type="Int32" Nullable="false" />
+    <Property Name="plaka" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SahipAdı" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SahipSoyadı" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="marka" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="model" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ParkAlan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AracYıkama" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GirisSaati" Type="DateTime" Precision="7" />
+    <Property Name="CıkısSaati" Type="DateTime" Precision="7" />
+    <Property Name="fiyat" Type="Int32" />
+    <Property Name="Durum" Type="Int32" />
+    <Property Name="ParkYeriId" Type="Int32" />
+    <NavigationProperty Name="parkyeri" Relationship="Self.FK_kayit_parkyeri" FromRole="kayit" ToRole="parkyeri" />
+  </EntityType>
+  <EntityType Name="parkyeri">
+    <Key>
+      <PropertyRef Name="ParkYeriId" />
+    </Key>
+    <Property Name="ParkYeriId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ParkYeri1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Durum" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="kayits" Relationship="Self.FK_kayit_parkyeri" FromRole="parkyeri" ToRole="kayit" />
+  </EntityType>
+  <Association Name="FK_kayit_parkyeri">
+    <End Role="parkyeri" Type="Self.parkyeri" Multiplicity="0..1" />
+    <End Role="kayit" Type="Self.kayit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="parkyeri">
+        <PropertyRef Name="ParkYeriId" />
+      </Principal>
+      <Dependent Role="kayit">
+        <PropertyRef Name="ParkYeriId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="otoparkEntities4" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="kayits" EntityType="Self.kayit" />
+    <EntitySet Name="parkyeris" EntityType="Self.parkyeri" />
+    <AssociationSet Name="FK_kayit_parkyeri" Association="Self.FK_kayit_parkyeri">
+      <End Role="parkyeri" EntitySet="parkyeris" />
+      <End Role="kayit" EntitySet="kayits" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

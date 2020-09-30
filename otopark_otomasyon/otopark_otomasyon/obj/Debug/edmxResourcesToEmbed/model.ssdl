@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="otoparkModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="kayitlar">
+    <Key>
+      <PropertyRef Name="k_id" />
+    </Key>
+    <Property Name="k_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="p_yeri_id" Type="int" />
+    <Property Name="m_id" Type="int" />
+    <Property Name="plaka" Type="nvarchar" MaxLength="50" />
+    <Property Name="sahip_adi" Type="nvarchar" MaxLength="50" />
+    <Property Name="sahip_soyadi" Type="nvarchar" MaxLength="50" />
+    <Property Name="marka" Type="nvarchar" MaxLength="50" />
+    <Property Name="model" Type="nvarchar" MaxLength="50" />
+    <Property Name="park_alani" Type="nvarchar" MaxLength="50" />
+    <Property Name="aracyikama" Type="nvarchar" MaxLength="50" />
+    <Property Name="g_saati" Type="datetime2" Precision="7" />
+    <Property Name="c_saati" Type="datetime2" Precision="7" />
+    <Property Name="fiyat" Type="int" />
+  </EntityType>
+  <EntityType Name="musteri">
+    <Key>
+      <PropertyRef Name="m_id" />
+    </Key>
+    <Property Name="m_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="park_alani" Type="nvarchar" MaxLength="50" />
+    <Property Name="marka" Type="nvarchar" MaxLength="50" />
+    <Property Name="model" Type="nvarchar" MaxLength="50" />
+    <Property Name="plaka" Type="nvarchar" MaxLength="50" />
+    <Property Name="sahip_adi" Type="nvarchar" MaxLength="50" />
+    <Property Name="sahip_soyadi" Type="nvarchar" MaxLength="50" />
+    <Property Name="g_saati" Type="datetime2" Precision="7" />
+    <Property Name="durum" Type="nvarchar" MaxLength="50" />
+    <Property Name="aracyikama" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="parkyeri">
+    <Key>
+      <PropertyRef Name="p_yeri_id" />
+    </Key>
+    <Property Name="p_yeri_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="p_yeri" Type="nvarchar" MaxLength="50" />
+    <Property Name="p_durum" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_kayitlar_musteri">
+    <End Role="musteri" Type="Self.musteri" Multiplicity="0..1" />
+    <End Role="kayitlar" Type="Self.kayitlar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="musteri">
+        <PropertyRef Name="m_id" />
+      </Principal>
+      <Dependent Role="kayitlar">
+        <PropertyRef Name="m_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_kayitlar_parkyeri">
+    <End Role="parkyeri" Type="Self.parkyeri" Multiplicity="0..1" />
+    <End Role="kayitlar" Type="Self.kayitlar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="parkyeri">
+        <PropertyRef Name="p_yeri_id" />
+      </Principal>
+      <Dependent Role="kayitlar">
+        <PropertyRef Name="p_yeri_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="otoparkModelStoreContainer">
+    <EntitySet Name="kayitlar" EntityType="Self.kayitlar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="musteri" EntityType="Self.musteri" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="parkyeri" EntityType="Self.parkyeri" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_kayitlar_musteri" Association="Self.FK_kayitlar_musteri">
+      <End Role="musteri" EntitySet="musteri" />
+      <End Role="kayitlar" EntitySet="kayitlar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_kayitlar_parkyeri" Association="Self.FK_kayitlar_parkyeri">
+      <End Role="parkyeri" EntitySet="parkyeri" />
+      <End Role="kayitlar" EntitySet="kayitlar" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

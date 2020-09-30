@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="otoparkModelStoreContainer" CdmEntityContainer="otoparkEntities4">
+    <EntitySetMapping Name="kayits">
+      <EntityTypeMapping TypeName="otoparkModel.kayit">
+        <MappingFragment StoreEntitySet="kayit">
+          <ScalarProperty Name="KayitId" ColumnName="KayitId" />
+          <ScalarProperty Name="plaka" ColumnName="plaka" />
+          <ScalarProperty Name="SahipAdı" ColumnName="SahipAdı" />
+          <ScalarProperty Name="SahipSoyadı" ColumnName="SahipSoyadı" />
+          <ScalarProperty Name="marka" ColumnName="marka" />
+          <ScalarProperty Name="model" ColumnName="model" />
+          <ScalarProperty Name="ParkAlan" ColumnName="ParkAlan" />
+          <ScalarProperty Name="AracYıkama" ColumnName="AracYıkama" />
+          <ScalarProperty Name="GirisSaati" ColumnName="GirisSaati" />
+          <ScalarProperty Name="CıkısSaati" ColumnName="CıkısSaati" />
+          <ScalarProperty Name="fiyat" ColumnName="fiyat" />
+          <ScalarProperty Name="Durum" ColumnName="Durum" />
+          <ScalarProperty Name="ParkYeriId" ColumnName="ParkYeriId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="parkyeris">
+      <EntityTypeMapping TypeName="otoparkModel.parkyeri">
+        <MappingFragment StoreEntitySet="parkyeri">
+          <ScalarProperty Name="ParkYeriId" ColumnName="ParkYeriId" />
+          <ScalarProperty Name="ParkYeri1" ColumnName="ParkYeri" />
+          <ScalarProperty Name="Durum" ColumnName="Durum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

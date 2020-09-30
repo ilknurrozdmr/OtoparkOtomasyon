@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="otoparkModelStoreContainer" CdmEntityContainer="otoparkEntities">
+    <EntitySetMapping Name="kayitlars">
+      <EntityTypeMapping TypeName="otoparkModel.kayitlar">
+        <MappingFragment StoreEntitySet="kayitlar">
+          <ScalarProperty Name="k_id" ColumnName="k_id" />
+          <ScalarProperty Name="p_yeri_id" ColumnName="p_yeri_id" />
+          <ScalarProperty Name="m_id" ColumnName="m_id" />
+          <ScalarProperty Name="plaka" ColumnName="plaka" />
+          <ScalarProperty Name="sahip_adi" ColumnName="sahip_adi" />
+          <ScalarProperty Name="sahip_soyadi" ColumnName="sahip_soyadi" />
+          <ScalarProperty Name="marka" ColumnName="marka" />
+          <ScalarProperty Name="model" ColumnName="model" />
+          <ScalarProperty Name="park_alani" ColumnName="park_alani" />
+          <ScalarProperty Name="aracyikama" ColumnName="aracyikama" />
+          <ScalarProperty Name="g_saati" ColumnName="g_saati" />
+          <ScalarProperty Name="c_saati" ColumnName="c_saati" />
+          <ScalarProperty Name="fiyat" ColumnName="fiyat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="musteris">
+      <EntityTypeMapping TypeName="otoparkModel.musteri">
+        <MappingFragment StoreEntitySet="musteri">
+          <ScalarProperty Name="m_id" ColumnName="m_id" />
+          <ScalarProperty Name="park_alani" ColumnName="park_alani" />
+          <ScalarProperty Name="marka" ColumnName="marka" />
+          <ScalarProperty Name="model" ColumnName="model" />
+          <ScalarProperty Name="plaka" ColumnName="plaka" />
+          <ScalarProperty Name="sahip_adi" ColumnName="sahip_adi" />
+          <ScalarProperty Name="sahip_soyadi" ColumnName="sahip_soyadi" />
+          <ScalarProperty Name="g_saati" ColumnName="g_saati" />
+          <ScalarProperty Name="durum" ColumnName="durum" />
+          <ScalarProperty Name="aracyikama" ColumnName="aracyikama" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="parkyeris">
+      <EntityTypeMapping TypeName="otoparkModel.parkyeri">
+        <MappingFragment StoreEntitySet="parkyeri">
+          <ScalarProperty Name="p_yeri_id" ColumnName="p_yeri_id" />
+          <ScalarProperty Name="p_yeri" ColumnName="p_yeri" />
+          <ScalarProperty Name="p_durum" ColumnName="p_durum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

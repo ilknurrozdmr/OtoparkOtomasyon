@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="otoparkModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="kayit">
+    <Key>
+      <PropertyRef Name="KayitId" />
+    </Key>
+    <Property Name="KayitId" Type="int" Nullable="false" />
+    <Property Name="plaka" Type="nvarchar" MaxLength="50" />
+    <Property Name="SahipAdı" Type="nvarchar" MaxLength="50" />
+    <Property Name="SahipSoyadı" Type="nvarchar" MaxLength="50" />
+    <Property Name="marka" Type="nvarchar" MaxLength="50" />
+    <Property Name="model" Type="nvarchar" MaxLength="50" />
+    <Property Name="ParkAlan" Type="nvarchar" MaxLength="50" />
+    <Property Name="AracYıkama" Type="nvarchar" MaxLength="50" />
+    <Property Name="GirisSaati" Type="datetime2" Precision="7" />
+    <Property Name="CıkısSaati" Type="datetime2" Precision="7" />
+    <Property Name="fiyat" Type="int" />
+    <Property Name="Durum" Type="int" />
+    <Property Name="ParkYeriId" Type="int" />
+  </EntityType>
+  <EntityType Name="parkyeri">
+    <Key>
+      <PropertyRef Name="ParkYeriId" />
+    </Key>
+    <Property Name="ParkYeriId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ParkYeri" Type="nvarchar" MaxLength="50" />
+    <Property Name="Durum" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_kayit_parkyeri">
+    <End Role="parkyeri" Type="Self.parkyeri" Multiplicity="0..1" />
+    <End Role="kayit" Type="Self.kayit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="parkyeri">
+        <PropertyRef Name="ParkYeriId" />
+      </Principal>
+      <Dependent Role="kayit">
+        <PropertyRef Name="ParkYeriId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="otoparkModelStoreContainer">
+    <EntitySet Name="kayit" EntityType="Self.kayit" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="parkyeri" EntityType="Self.parkyeri" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_kayit_parkyeri" Association="Self.FK_kayit_parkyeri">
+      <End Role="parkyeri" EntitySet="parkyeri" />
+      <End Role="kayit" EntitySet="kayit" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
